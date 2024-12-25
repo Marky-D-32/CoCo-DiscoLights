@@ -7,7 +7,7 @@ All ROM subroutines in the original have been replaced with the TRS-80 equivalen
 
 | File | Description |
 | --- | --- |
-| build.cmd |  A windows batch file to assemble and run the program file.<br> 1.  Set the path to asm6809 and XROAR (change as required) <br>  2.  Assemble the code file using asm6809 <br> 3.  Run the resulting DiscoLights.bin file in XROAR |
+| build.bat |  A windows batch file to assemble and run the program file.<br> 1.  Set the path to asm6809 and XROAR (change as required) <br>  2.  Assemble the code file using asm6809 <br> 3.  Run the resulting DiscoLights.bin file in XROAR |
 | DiscoLights.asm | The assembly code file |
 | DiscoLights_Loader.bas | A basic program to load the machine code into memory. <br> This differs from the magazine listing.  Instead of prompting to key in the machine code from the listing, it loads it into memory via DATA statements. |
 
